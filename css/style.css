@@ -17,7 +17,7 @@ html {
 
 body {
     margin: 0em 1vw;
-    box-shadow: var(--shadow) .5em .5em;
+    filter: drop-shadow(12px 4px 0.75rem #000);
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
@@ -114,11 +114,11 @@ footer a {
 footer a:hover {
     color: white;
 }
-
+/*
 #container {
     width: 200px;
 }
 #container img{
     max-width: 100%;
     max-height: 100%;
-}
+} */
