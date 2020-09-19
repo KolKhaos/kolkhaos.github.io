@@ -36,8 +36,8 @@ header {
     width: auto;
     font-family: var(--font-family);
     letter-spacing: 5px;
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
 }
 
 h1 {
@@ -55,7 +55,7 @@ header img {
 }
 
 main {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-main);
     min-height: 30vh;
     padding: 1.5em 2em;
     font-family: var(--font-family);
@@ -71,7 +71,7 @@ main h2 {
 }
 
 main hr {
-    background-color: var(--color-main);
+    background-color: var(--color-tertiary);
     height: .5em;
     border-radius: .5em;
 }
@@ -80,7 +80,7 @@ main p,
 main ul {
     font-size: 1.25em;
     font-weight: 800;
-    color: var(--color-main);
+    color: var(--color-quad);
 }
 
 main ul li a {
@@ -113,7 +113,7 @@ footer a:hover {
 }
 
 #container {
-    width: 50px;
+    width: 200px;
 }
 #container img{
     max-width: 100%;
