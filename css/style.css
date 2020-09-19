@@ -2,7 +2,7 @@
 :root {
     --color-main: #ffffff;
     --color-secondary: #0004ab;
-    --color-tertiary: #7a7976;
+    --color-tertiary:#000;
     --color-quad: #272727;
     --shadow:  #272727;
     --font-family: 'Kufam', cursive;
@@ -18,13 +18,15 @@ html {
 body {
     margin: 0em 1vw;
     box-shadow: var(--shadow) .5em .5em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
 }
 
 header,
 footer {
-    background-color: var(--color-main);
+    background-color: var(--color-secondary);
     padding: 0em 2em;
     color: var(--color-tertiary);
 }
