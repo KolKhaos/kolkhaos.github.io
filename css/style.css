@@ -1,1 +1,109 @@
 /* Color Defaults */
+:root {
+    --color-main: #ffffff;
+    --color-secondary: #0004ab;
+    --color-tertiary: #7a7976;
+    --color-quad: #272727;
+    --shadow: #e76f51;
+    --font-family: 'Kufam', cursive;
+}
+
+html {
+    font-size: 16px;
+    margin: 10px;
+    padding: 100px;
+    background-color: var(--color-main);
+}
+
+body {
+    margin: 0em 1vw;
+    box-shadow: var(--shadow) .5em .5em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+header,
+footer {
+    background-color: var(--color-main);
+    padding: 0em 2em;
+    color: var(--color-tertiary);
+}
+
+header {
+    max-height: 10em;
+    width: auto;
+    font-family: var(--font-family);
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 3.052em;
+    line-height: 3em;
+    display: inline-block;
+    margin: 0em;
+}
+
+header img {
+    float: right;
+    margin-top: 2.5em;
+    border-radius: 2em;
+    filter: drop-shadow(0 0 0.75rem #000);
+}
+
+main {
+    background-color: var(--color-tertiary);
+    min-height: 30vh;
+    padding: 1.5em 2em;
+    font-family: var(--font-family);
+    letter-spacing: 1px;
+}
+
+main h2 {
+    margin: 0em;
+    color: var(--color-main);
+    font-size: 2.441em;
+    line-height: 2em;
+    font-weight: 900;
+}
+
+main hr {
+    background-color: var(--color-main);
+    height: .5em;
+    border-radius: .5em;
+}
+
+main p,
+main ul {
+    font-size: 1.25em;
+    font-weight: 800;
+    color: var(--color-main);
+}
+
+main ul li a {
+    color: var(--color-quad);
+    padding-left: .25em;
+}
+
+main ul li a:hover {
+    color: var(--color-secondary);
+    padding-left: .25em;
+}
+
+
+footer {
+    margin: 0em;
+    padding: 1em;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 900;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+footer a {
+    color: var(--color-secondary);
+}
+
+footer a:hover {
+    color: white;
+}
