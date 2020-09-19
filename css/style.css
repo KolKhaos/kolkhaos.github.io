@@ -108,11 +108,11 @@ footer {
 }
 
 footer a {
-    color: var(--color-quad);
+    color: var(--color-main);
 }
 
 footer a:hover {
-    color: white;
+    color: var(--color-tertiary);
 }
 /*
 #container {
