@@ -7,5 +7,5 @@ try {
     };
     document.getElementById("lastModified").textContent = new Date().toLocaleDateString("en-us", options);
 } catch (e){
-    alert("Error with code or your browser does not support locale")
+    alert("Error with code or your browser does not support locale");
 }
