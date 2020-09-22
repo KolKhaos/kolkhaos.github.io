@@ -4,7 +4,7 @@ try {
         day: "numeric",
         month: "long",
         year: "numeric"
-    };
+    }
     document.getElementById("lastModified").textContent = new Date().toLocaleDateString("en-us", options);
 } 
 catch (e){
