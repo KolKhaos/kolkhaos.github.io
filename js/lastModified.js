@@ -3,9 +3,10 @@ try {
         weekday: "long",
         day: "numeric",
         month: "long",
-        year: "numeric",
+        year: "numeric"
     };
     document.getElementById("lastModified").textContent = new Date().toLocaleDateString("en-us", options);
-} catch (e){
+} 
+catch (e){
     alert("Error with code or your browser does not support locale");
 }
