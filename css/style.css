@@ -41,20 +41,17 @@ header {
 }
 
 h1 {
-    font-size: 3.052em;
+    font-size: 2.5em;
     line-height: 3em;
     display: inline-block;
     margin: 0em;
 }
 
-header img {
-    float: right;
+header img {    
     width: 200px;
     max-width: 100%;
     max-height: 100%;
-    margin-top: 2.5em;
-    border-radius: 2em;
-    filter: drop-shadow(0 0 0.75rem #000);
+    margin-top: 2.5em;   
 }
 
 main {
@@ -68,7 +65,7 @@ main {
 main h2 {
     margin: 0em;
     color: var(--color-quad);
-    font-size: 2.441em;
+    font-size: 1.5em;
     line-height: 2em;
     font-weight: 900;
 }
