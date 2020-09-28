@@ -41,7 +41,7 @@ header {
 }
 
 h1 {
-    font-size: 3.052em;
+    font-size: 2.5em;
     line-height: 3em;
     display: inline-block;
     margin: 0em;
@@ -67,7 +67,7 @@ main {
 main h2 {
     margin: 0em;
     color: var(--color-quad);
-    font-size: 2.441em;
+    font-size: 1.5em;
     line-height: 2em;
     font-weight: 900;
 }
