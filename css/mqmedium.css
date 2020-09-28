@@ -1,9 +1,9 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (max-width: 32.5em) {
     h1 {
-        font-size: 3.052em;
+        font-size: 2.5em;
     }
     main h2 {
-        font-size: 2.441em;
+        font-size: 1.5em;
     }
     header img {
         float: right;
