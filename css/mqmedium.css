@@ -7,11 +7,5 @@
     }
     header img {
         float: right;
-        width: 200px;
-        max-width: 100%;
-        max-height: 100%;
-        margin-top: 2.5em;
-        border-radius: 2em;
-        filter: drop-shadow(0 0 0.75rem #000);
     }
 }
