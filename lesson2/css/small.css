@@ -24,6 +24,12 @@ body {
     border-bottom-right-radius: 2em;
 }
 
+#header-box {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
 header,
 footer {
     background-color: var(--color-secondary);
@@ -42,8 +48,7 @@ header {
 
 h1 {
     font-size: 2.5em;
-    line-height: 3em;
-    display: inline-block;
+    line-height: 3em;    
     margin: 0em;
 }
 
