@@ -16,6 +16,7 @@ html {
 }
 
 body {
+    min-width: fit-content;
     margin: 0em 1vw;
     filter: drop-shadow(12px 4px 0.75rem #000);
     border-top-left-radius: 2em;
@@ -38,17 +39,15 @@ footer {
 }
 
 header {
-    max-height: 10em;
+    max-height: fit-content;
     width: auto;
-    font-family: var(--font-family);
-    letter-spacing: 5px;
+    font-family: var(--font-family);    
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
 }
 
 h1 {
-    font-size: 2.5em;
-    line-height: 3em;
+    font-size: 2.5em;    
     display: inline-block;
     margin: 0em;
 }
