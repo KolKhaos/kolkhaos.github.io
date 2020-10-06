@@ -136,6 +136,33 @@ img {
     border-radius: 25px;
     border-color: #000;
 }
+/* Table CSS */
+.primary {
+    background-color: #fcd45b;
+    color: #000;
+}
+.secondary {
+    background-color: #d9d9d9;
+    color: #000;
+}
+.tertiary {
+    background-color: #ff331c;
+    color: #fff;
+}
+.accent {
+    background-color: #6caacc;
+    color: #000;
+}
+
+table {
+    width: 100%;
+    border: 1em;
+}
+
+table tr td {
+    height: 4em;
+    text-align: center;
+    
 
 
 footer {
