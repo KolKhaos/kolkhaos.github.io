@@ -54,6 +54,7 @@ nav {
 }
 
 nav ul {
+    background-color: var(--color-main);
     display: block;
     list-style: none;
     text-decoration: none;
@@ -67,8 +68,8 @@ li a {
 }
 
 li a:hover {
-    color: var(--color-main);
-    background-color: var(--color-main);
+    color: var(--color-tertiary);
+    background-color: var(--color-secondary);
     text-decoration: underline;
     
 }
