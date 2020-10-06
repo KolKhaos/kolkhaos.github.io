@@ -55,11 +55,13 @@ nav {
 
 nav ul {
     list-style: none;
+    text-decoration: none;
 
 }
 
 li a {
     color: var(--color-main);
+    text-decoration: none;
     
 }
 
