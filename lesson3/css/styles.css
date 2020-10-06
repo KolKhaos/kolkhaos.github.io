@@ -76,12 +76,7 @@ li a:hover {
     border-style: none;
     
 }
-.currentPage {
-    border-style: solid;
-    border-width: medium;
-    border-color: var(--color-main);
-    border-radius: 2em;
-    background-color: var(--color-secondary);    
+.currentPage {     
     font-weight: bold;
 }
 /* end nav elements */
