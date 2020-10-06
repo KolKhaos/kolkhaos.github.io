@@ -73,7 +73,6 @@ li a:hover {
     color: var(--color-tertiary);
     background-color: var(--color-main);
     text-decoration: underline;
-    border-style: none;
     
 }
 .currentPage {     
