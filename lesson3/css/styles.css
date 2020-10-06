@@ -47,14 +47,13 @@ header {
     border-top-right-radius: inherit;
 }
 /* nav and nav related elements */
-nav {
-    background-color: var(--color-main);
+nav {    
     display: block;
     text-decoration: none;
 }
 
 nav ul {
-    background-color: var(--color-main);
+    background-color: var(--color-secondary);
     display: block;
     list-style: none;
     text-decoration: none;
@@ -68,8 +67,8 @@ li a {
 }
 
 li a:hover {
-    color: var(--color-tertiary);
-    background-color: var(--color-secondary);
+    color: var(--color-main);
+    background-color: var(--color-tertiary);
     text-decoration: underline;
     
 }
