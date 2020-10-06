@@ -73,15 +73,15 @@ li a:hover {
     color: var(--color-tertiary);
     background-color: var(--color-main);
     text-decoration: underline;
+    border-style: none;
     
 }
 .currentPage {
     border-style: solid;
-    border-width: 1.5px;
+    border-width: medium;
     border-color: var(--color-main);
     border-radius: 2em;
-    background-color: var(--color-secondary);
-    
+    background-color: var(--color-secondary);    
     font-weight: bold;
 }
 /* end nav elements */
