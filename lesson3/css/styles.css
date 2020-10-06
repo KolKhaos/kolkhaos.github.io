@@ -65,6 +65,7 @@ li a {
     padding: .5em;
     color: var(--color-main);
     text-decoration: none;
+    border-radius: 2em;
     
 }
 
