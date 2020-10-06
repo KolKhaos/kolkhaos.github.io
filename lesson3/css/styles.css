@@ -158,6 +158,25 @@ table {
     width: 100%;
     border: 1em;
 }
+.headingOne {
+    font-family: var(--font-family);
+    font-size: 40px;
+}
+.headingTwo {
+    font-family: var(--font-family);
+    font-size: 30px;
+}
+.navType {
+    font-family: var(--font-family);
+    font-size: 20px;
+}
+.sectionThree {
+    font-family: var(--font-family);
+    font-size: 25px;
+}
+.paraG {
+    font-family: var(--font-family;)
+}
 
 table tr td {
     height: 4em;
