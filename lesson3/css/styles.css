@@ -157,7 +157,7 @@ img {
 table {
     width: 100%;
     border: 1em;
-    border-width: thin;
+    border-width: thin;    
 }
 .headingOne {
     font-family: var(--font-family);
