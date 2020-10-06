@@ -1,0 +1,1 @@
+document.getElementById("w03Date").innerHTML = document.lastModified;
