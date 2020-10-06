@@ -47,13 +47,27 @@ header {
     border-top-right-radius: inherit;
 }
 
-nav{
+nav {
+    background-color: var(--color-secondary);
     display: block;
+    text-decoration: none;
 }
 
-nav ul{
+nav ul {
     list-style: none;
 
+}
+
+li a {
+    color: var(--color-main);
+    
+}
+
+li a:hover {
+    color: var(--color-secondary);
+    background-color: var(--color-main);
+    text-decoration: underline;
+    
 }
 
 h1 {
