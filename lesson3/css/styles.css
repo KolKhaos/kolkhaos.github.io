@@ -75,6 +75,12 @@ li a:hover {
     text-decoration: underline;
     
 }
+.currentPage {
+    color: var(--color-tertiary);
+    background-color: var(--color-main);
+    font-weight: bold;
+
+}
 /* end nav elements */
 
 h1 {
