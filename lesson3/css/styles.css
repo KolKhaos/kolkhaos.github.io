@@ -47,6 +47,15 @@ header {
     border-top-right-radius: inherit;
 }
 
+nav{
+    display: block;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
 h1 {
     font-size: 2.5em;    
     display: inline-block;
@@ -76,7 +85,7 @@ main hr {
 }
 
 main p{
-    text-align: center;
+    text-align: left;
 }
 
 #main_grid {
