@@ -76,10 +76,11 @@ li a:hover {
     
 }
 .currentPage {
-    color: var(--color-tertiary);
-    background-color: var(--color-main);
+    border-color: var(--color-main);
+    border-radius: 2em;
+    background-color: var(--color-secondary);
+    padding:.5em;
     font-weight: bold;
-
 }
 /* end nav elements */
 
