@@ -32,8 +32,7 @@ body {
 }
 
 #banner {
-    background-color: var(--color-main);
-    display: flex;
+    background-color: var(--color-main);    
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -90,7 +89,7 @@ nav {
 }
 .navigation a:hover {
 	color: white;
-	background-color: black;
+	background-color: var(--color-tertiary);
 }
 
 .currentPage {
