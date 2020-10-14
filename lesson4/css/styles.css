@@ -28,10 +28,12 @@ body {
 
 .city {
    font-weight: bold;
+   text-align: center;
 }
 
 #banner {
     background-color: var(--color-main);
+    display: flex;
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -42,6 +44,15 @@ footer {
     background-color: var(--color-secondary);
     padding: 0em 2em;
     color: var(--font-color-primary);
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    color: var(--color-tertiary);
 }
 
 header {
@@ -149,6 +160,7 @@ div {
     background-color: grey;
     text-align: center;
     padding: 1.5em;
+    margin: .5em;
 
 }
 
