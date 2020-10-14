@@ -45,15 +45,6 @@ footer {
     color: var(--font-color-primary);
 }
 
-footer a {
-    text-decoration: none;
-    color: #000;
-}
-
-footer a:hover {
-    color: var(--color-tertiary);
-}
-
 header {
     max-height: fit-content;
     width: auto;
@@ -176,7 +167,8 @@ footer {
 }
 
 footer a {
-    color: var(--color-main);
+    text-decoration: none;
+    color: #000;
 }
 
 footer a:hover {
