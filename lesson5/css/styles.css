@@ -85,8 +85,8 @@ nav {
 
 .currentPage {
     font-weight: bold;
-    color: var(--color-quad);
-    background-color: var(--font-color-secondary);
+    color: var(--font-color-primary);
+    background-color: var(--color-quad);
 }
 
 .responsive li {
