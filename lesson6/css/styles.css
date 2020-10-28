@@ -149,10 +149,27 @@ main p {
 /*End img section */
 
 
-/* placeholder grid */
+/* content sections */
 
 div {
     display: block;
+}
+
+table {
+    color: var(--font-color-primary);
+
+}
+
+#summary {    
+    background-color: var(--color-quad);
+    top: 25px;
+    left: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.weatherSum {
+    display: none;
 }
 
 .hero {
