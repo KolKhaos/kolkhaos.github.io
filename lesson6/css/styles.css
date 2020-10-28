@@ -141,7 +141,7 @@ main p {
 
 }
 /*img properties and values */
-img {
+#logo {
     max-width: 6em;
     padding: .5em;
 }
