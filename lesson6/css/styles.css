@@ -167,12 +167,12 @@ table {
     background-color: var(--color-quad);
     top: 25px;
     left: 25px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
 }
 
 .weatherSum {
-    display: none;
+    text-decoration: underline;
 }
 
 .hero {
