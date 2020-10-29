@@ -159,12 +159,12 @@ table {
     width: 80%;
     border: 1px;
     display: table;
-    color: var(--font-color-primary);
+    color: var(--font-color-secondary);
 
 }
 
 #summary {    
-    background-color: var(--color-quad);
+    background-color: var(--color-tertiary);
     top: 25px;
     left: 25px;
     border-top: .5px solid black;
