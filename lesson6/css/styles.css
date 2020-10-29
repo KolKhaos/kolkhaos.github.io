@@ -162,6 +162,10 @@ table {
     color: var(--font-color-secondary);
 
 }
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
 
 #summary {    
     background-color: var(--color-tertiary);
