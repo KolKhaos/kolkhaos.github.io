@@ -170,6 +170,9 @@ tr {
     display: table-row;
     vertical-align: inherit;
 }
+td:first-child{
+    text-align: right;
+}
 
 #summary {    
     background-color: var(--color-tertiary);
