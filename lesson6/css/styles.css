@@ -206,7 +206,7 @@ tr {
 }
 
 .placeForecast, .placeArticle {
-    background-color: grey;
+    background-color: var(--color-tertiary);
     text-align: center;
     padding: 1.5em;
     margin: .5em;
