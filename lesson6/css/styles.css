@@ -183,6 +183,7 @@ td:first-child{
 }
 
 .weatherSum {
+    padding-top: 3px;
     text-align: center;
     text-decoration: underline;
     color: var(--font-color-secondary);

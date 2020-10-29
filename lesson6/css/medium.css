@@ -2,14 +2,31 @@
 	.navigation {
 		display: flex;
 	}
+
 	.navigation li {
-		display: block; /* change state in small view */
+		display: block;
+		/* change state in small view */
 		flex: 1 1 auto;
 	}
+
 	.navigation a {
 		text-align: center;
 	}
+
 	.navigation li:first-child {
 		display: none;
 	}
+	#weather_summary {
+		position: absolute;
+		background-color: rgba(225, 51, 28, .85);
+		box-shadow: 0px 0px 25px #444444;
+		border: none;
+	}
+
+	.weatherSum {
+		padding-left: 2em;
+    	padding-right: 2em;
+    	padding-top: .5em;
+	}
 }
+
