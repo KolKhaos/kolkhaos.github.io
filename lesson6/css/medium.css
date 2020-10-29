@@ -16,7 +16,7 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	#weather_summary {
+	#summary {
 		position: absolute;
 		background-color: rgba(225, 51, 28, .85);
 		box-shadow: 0px 0px 25px #444444;
