@@ -217,8 +217,7 @@ tr {
     display: grid;
     column-gap: 3px;
     row-gap: 2px;
-    grid-template-columns: repeat(5, 1fr);    
-    border: 2px solid var(--color-secondary);
+    grid-template-columns: repeat(5, 1fr);
     justify-items: center;
 }
 .forecastDay1 .forecastDay2 .forecastDay3 .forecastDay4 .forecastDay5 {
