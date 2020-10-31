@@ -189,7 +189,7 @@ tr {
 }
 
 .weatherSum {
-    padding-top: 3px;
+    padding: 2px;
     text-align: center;
     text-decoration: underline;
     color: var(--font-color-primary);
@@ -206,6 +206,20 @@ tr {
     margin-bottom: 1em;
 }
 
+.smallText {
+    position: absolute;
+    right: 0px;
+    top: 0px;    
+}
+
+.mediumText {
+    display: none;
+}
+
+.largeText {
+    display: none;
+}
+
 .placeForecast, .placeArticle {
     background-color: var(--color-tertiary);
     text-align: center;
@@ -214,9 +228,8 @@ tr {
 }
 
 .forecast {
-    display: grid;
-    column-gap: 3px;
-    row-gap: 2px;
+    display: grid;    
+    row-gap: 6px;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
 }

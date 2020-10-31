@@ -43,7 +43,12 @@
         <br>
         <div class="hero">
             <picture>
-                <img src="images/wdd230_image_franklinOriginal.jpeg" alt="Sunny Mountain Range">
+                    <source srcset="images/500franklinOriginal" media="(min-width: 551px) and (max-width: 799px)">
+                        <source srcset="imageswdd230_image_franklinOriginal" media="(max-width: 800px)">
+                <img src="images/250franklinOriginal.jpg" alt="Sunny Mountain Range">
+                <div class="smallText">Small</div>
+                <div class="mediumText">Medium</div>
+                <div class="largeText">Large</div>
             </picture>
             <div id="summary">
                 <h3 class="weatherSum">Weather Summary</h3>

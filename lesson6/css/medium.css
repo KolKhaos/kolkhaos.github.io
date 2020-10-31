@@ -1,4 +1,4 @@
-@media only screen and (min-width:550px){
+@media only screen and (min-width:551px) and (max-width: 790px){
 	.navigation {
 		display: flex;
 	}
@@ -32,5 +32,17 @@
 		padding: 2px;
 		color: white;
 	}
+
+	.smallText {
+		display: none;
+	}
+
+	.mediumText {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+
+
 }
 
