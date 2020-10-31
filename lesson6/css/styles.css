@@ -225,8 +225,7 @@ tr {
     grid-row: 1;
 }
 .forecastIcon {
-    max-width: 100%;
-    padding: .5em;    
+    max-width: 100%;       
     grid-row: 2;
     align-items: center;   
 }
