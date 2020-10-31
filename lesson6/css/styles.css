@@ -215,6 +215,8 @@ tr {
 
 .forecast {
     display: grid;
+    column-gap: 3px;
+    row-gap: 2px;
     grid-template-columns: repeat(5, 1fr);    
     border: 2px solid var(--color-secondary);
     justify-items: center;
