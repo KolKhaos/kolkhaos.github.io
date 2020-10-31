@@ -14,6 +14,8 @@
     margin: 5px;
     border: .5px solid black;
     background-color: var(--color-quad);
+    text-align: center;
+    font-weight: bold;
 }
 
 html {
