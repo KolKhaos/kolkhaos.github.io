@@ -226,14 +226,12 @@ tr {
 }
 .forecastIcon {
     max-width: 100%;
-    padding: .5em;
-    grid-column: 1;
+    padding: .5em;    
     grid-row: 2;
     align-items: center;   
 }
 
-.forecastTemp {
-    
+.forecastTemp {    
     grid-row: 3;
 }
 
