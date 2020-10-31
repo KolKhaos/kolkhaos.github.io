@@ -211,13 +211,13 @@ tr {
     text-align: center;
     padding: 1.5em;
     margin: .5em;
-
 }
 
 .forecast {
     display: grid;
     grid-template-columns: repeat(5, 1fr);    
     border: 2px solid var(--color-secondary);
+    justify-items: center;
 }
 .forecastDay1 .forecastDay2 .forecastDay3 .forecastDay4 .forecastDay5 {
     text-align: center;
@@ -225,9 +225,9 @@ tr {
     grid-row: 1;
 }
 .forecastIcon {
-    max-width: 100%;       
+    max-width: 100%;
     grid-row: 2;
-    align-items: center;   
+    justify-self: center;   
 }
 
 .forecastTemp {    
