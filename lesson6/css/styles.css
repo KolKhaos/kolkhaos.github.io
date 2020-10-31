@@ -208,8 +208,9 @@ tr {
 
 .smallText {
     position: absolute;
-    right: 0px;
-    top: 0px;    
+    right: 2px;
+    top: 2px;
+    color: yellow;
 }
 
 .mediumText {
