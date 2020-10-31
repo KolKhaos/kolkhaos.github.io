@@ -1,6 +1,6 @@
-let d = new Date();
+let day = new Date();
 let pancake = document.querySelector("#pancake");
 
-if (d.getDay() == 5) {
+if (day.getDay() == 5) {
     pancake.style.display = "block";
 }
