@@ -28,5 +28,9 @@
     	padding-right: 2em;
     	padding-top: .5em;
 	}
+	.weatherData {
+		padding: 2px;
+		color: black;
+	}
 }
 
