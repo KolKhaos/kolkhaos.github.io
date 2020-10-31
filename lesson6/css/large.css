@@ -4,6 +4,15 @@
         position: absolute;
         right: 0px;
         top: 0px;
+        display: block;
+    }
+    
+    .mediumText {
+        display: none;
+    }
+
+    .smallText {
+        display: none;
     }
 
 }

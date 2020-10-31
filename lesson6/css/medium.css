@@ -37,10 +37,11 @@
 		display: none;
 	}
 
-	.mediumText {
+	.mediumText { 
 		position: absolute;
 		right: 0px;
 		top: 0px;
+		display: block;
 	}
 
 
