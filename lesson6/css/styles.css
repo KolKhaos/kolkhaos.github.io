@@ -216,8 +216,7 @@ tr {
 
 .forecast {
     display: grid;
-    grid-template-columns: repeat(5, fr);
-    grid-template-rows: 3;
+    grid-template-columns: repeat(5, 1fr);    
     border: 2px solid var(--color-secondary);
 }
 .forecastDay1 .forecastDay2 .forecastDay3 .forecastDay4 .forecastDay5 {
