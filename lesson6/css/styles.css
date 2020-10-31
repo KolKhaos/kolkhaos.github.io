@@ -180,24 +180,6 @@ tr {
     text-align: right;
 }
 
-.forecast {
-    display: grid;
-    grid-template-columns: 5;
-    grid-template-rows: 3;
-    border: 2px solid var(--color-secondary);
-}
-.forecastDay {
-    text-align: center;
-    font-weight: bold;
-    grid-row: 1;
-}
-
-.forecastIcon {
-    grid-row: 2;
-    max-width: 100%;
-    padding: .5em;
-}
-
 #summary {    
     background-color: var(--color-secondary);
     top: 25px;
@@ -232,7 +214,31 @@ tr {
 
 }
 
-/* placeholder ends */
+.forecast {
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 3;
+    border: 2px solid var(--color-secondary);
+}
+.forecastDay {
+    text-align: center;
+    font-weight: bold;
+    grid-row: 1;
+}
+
+.forecastIcon1 {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 100%;
+    padding: .5em;
+}
+
+.forecastTemp1 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+/* content ends */
 
 footer {
     margin: 0em;
