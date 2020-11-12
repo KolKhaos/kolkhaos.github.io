@@ -1,0 +1,71 @@
+/* Color Defaults */
+:root {
+    --color-main: #e7f0ed;
+    --color-secondary: #e7ffed;
+    --color-tertiary: #628ca6;
+    --color-quad: #7fb9c2;
+    --font-family: 'Ubuntu', sans-serif;
+    --font-color-primary: #000;
+    --font-color-secondary: #fff;
+}
+
+main{
+    color: var(--font-color-primary);
+}
+
+body {
+    min-width: fit-content;
+    margin: 0em 1vw;
+    filter: drop-shadow(12px 4px 0.75rem #000);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+tr {
+    text-align: center;
+    background-color: var(--color-main);
+}
+
+tr .even {
+    background-color: var(--color-secondary);
+}
+
+#goal {
+    background-color: var(--color-tertiary);
+    color: var(--font-color-secondary);
+    font-weight: bold;
+}
+
+
+table {
+    width: 80%;
+    border: 1px;
+    display: table;
+    color: var(--font-color-secondary);
+
+}
+
+thead {
+    color: var(--font-color-primary);
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--color-quad);
+}
+
+tr:first-child {
+    color: var(--font-color-secondary);
+    background-color: var(--color-tertiary);
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+}
