@@ -28,7 +28,7 @@ tr {
     background-color: var(--color-main);
 }
 
-tr .even {
+.even {
     background-color: var(--color-secondary);
 }
 
