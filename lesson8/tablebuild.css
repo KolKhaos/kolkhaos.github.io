@@ -23,6 +23,7 @@ body {
     border-bottom-right-radius: 2em;
 }
 
+
 tr {
     text-align: center;
     background-color: var(--color-main);
@@ -43,7 +44,7 @@ table {
     width: 80%;
     border: 1px;
     display: table;
-    color: var(--font-color-secondary);
+    color: var(--font-color-primary);
 
 }
 
