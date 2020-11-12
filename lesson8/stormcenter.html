@@ -8,9 +8,9 @@
     <meta name="description" content="WDD Week 04: Preston">
     <link rel="shortcut icon" href="../images/favicon.png">
     <!-- css -->
-    <link rel="stylesheet" href="/lesson6/css/styles.css">
-    <link rel="stylesheet" href="/lesson6/css/medium.css">
-    <link rel="stylesheet" href="/lesson6/css/large.css">
+    <link rel="stylesheet" href="/lesson8/css/styles.css">
+    <link rel="stylesheet" href="/lesson8/css/medium.css">
+    <link rel="stylesheet" href="/lesson8/css/large.css">
     <link rel="normalize" href="/css/normalize.css">
     <!-- js -->
 
@@ -19,7 +19,9 @@
 
 <body>
     <header>
-        <div id="pancake"><p>Saturday= Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p></div>
+        <div id="pancake">
+            <p>Saturday= Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
         <div id="banner">
             <img id="logo" src="images/RainCloud.png" alt="dark cloud with rain drops">
             <h1>Tut-Tut!</h1>
@@ -29,80 +31,32 @@
             <ul class="navigation">
                 <li><a class="ham" href="#">☰</a></li>
                 <li><a href="#">Home</a></li>
-                <li class="currentPage"><a href="#">Preston</a></li>
+                <li><a href="../lesson6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
+                <li class="currentPage"><a href="stormcenter.html">Storm Center</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <h2 class="city">Preston, ID</h2>
-        <br>
-        <div class="hero">
-            <picture>
-                    <source srcset="images/500franklinOriginal.jpg" media="(min-width: 551px) and (max-width: 799px)">
-                    <source srcset="images/wdd230_image_franklinOriginal.jpeg" media="(max-width: 800px)">
-                <img src="images/wdd230_image_franklinOriginal.jpeg" alt="Sunny Mountain Range">
-                <div class="smallText">Small</div>
-                <div class="mediumText">Medium</div>
-                <div class="largeText">Large</div>
-            </picture>
-            <div id="summary">
-                <h3 class="weatherSum">Weather Summary</h3>
-                <table class="weatherData">
-                    <tbody>
-                        <tr>
-                            <td>Current: </td>
-                            <td id="dailysum">Sunny</td>
-                        </tr>
-                        <tr>
-                            <td>High:</td>
-                            <td id="dailytemp"> 50 °F</td>
-                        </tr>
-                        <tr>
-                            <td>Wind Chill: </td>
-                            <td id="dailyhum">45 °F</td>
-                        </tr>
-                        <tr>
-                            <td>Humidity: </td>
-                            <td id="dailyspeed">95%</td>
-                        </tr>
-                        <tr>
-                            <td>Wind Speed: </td>
-                            <td id="dailychill">12 mph</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        
-        <div class="placeForecast">
-            <h3 class="weatherSum">Five Day Forecast</h3>
-            <div class="forecast">
-                <span class="forecastDay">Hot</span>
-                <img class="forecastIcon" src="images/33.png" alt="Simple Sun icon">
-                <span class="forecastTemp">90°</span>
-                <span class="forecastDay">Cold</span>
-                <img class="forecastIcon" src="images/31.png" alt="Wind icon">
-                <span class= "forecastTemp">10°</span>
-                <span class="forecastDay">Cold</span>
-                <img class="forecastIcon" src="images/31.png" alt="Wind icon">
-                <span class="forecastTemp">10°</span>
-                <span class="forecastDay">Cold</span>
-                <img class="forecastIcon" src="images/31.png" alt="Wind icon">
-                <span class="forecastTemp">10°</span>
-                <span class="forecastDay">Hot</span>
-                <img class="forecastIcon" src="images/33.png" alt="Simple Sun icon">
-                <span class="forecastTemp">90°</span>
-            </div>
-        </div>
-        <div class="placeArticle">
-            <h3>There's a Storm coming Mr Wayne</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis a dui quis viverra. Duis interdum feugiat velit vitae ultrices. Nunc vel laoreet augue. Proin dapibus tincidunt velit, vitae luctus lacus eleifend ac. Vivamus quis rhoncus libero. Fusce vehicula turpis non elit suscipit molestie. Nunc metus erat, interdum consequat metus eu, luctus placerat lectus. Nullam et rhoncus diam, eget fermentum ipsum. Nam nec nisl purus. Fusce fringilla ex at sodales sollicitudin. Sed id tincidunt urna. In vitae ligula et ante semper suscipit sit amet ultrices tortor. Suspendisse luctus ultricies purus sed consectetur. In vel cursus sem. Aenean vel nunc a felis accumsan blandit.</p>
-        </div>
+        <h2>Storm Center</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant information</legend>
+                <label class="top">Full Name*<input type="text" name="name" required minlength="5"></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"
+                    required></label>                
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Zip Code*<input type="number" name="zipcode" required></label>                
+                <label class="top">Storm Date<input type="date" name="date" placeholder="http://"></label>
+            </fieldset>
+
+            <input type="submit" value="Propose My Course" class="submitBtn">
+
+        </form>
+
 
 
     </main>
