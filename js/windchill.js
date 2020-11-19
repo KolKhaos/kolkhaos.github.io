@@ -10,3 +10,5 @@ function windChill() {
       document.getElementById("dailychill").textContent = "N/A";
     }
   }
+
+  windChill();
