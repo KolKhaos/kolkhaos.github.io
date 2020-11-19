@@ -1,0 +1,19 @@
+@media only screen and (min-width: 800px){
+
+    .largeText {
+        position: absolute;
+        right: 2px;
+        top: 2px;
+        display: block;
+        color: yellow;
+    }
+    
+    .mediumText {
+        display: none;
+    }
+
+    .smallText {
+        display: none;
+    }
+
+}
