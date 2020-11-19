@@ -26,7 +26,7 @@ fetch(requestURL)
 
                 h2.textContent = towns[i].name;
                 h3.textContent = towns[i].motto;
-                pop.textContent = 'Population:' + ' ' + townsp[i].currentPopulation;
+                pop.textContent = 'Population:' + ' ' + towns[i].currentPopulation;
                 found.textContent = 'Year Founded:' + ' ' + towns[i].yearFounded;
                 rainFall.textContent = 'Avg Rainfall:' + ' ' + towns[i].averageRainfall;
 
