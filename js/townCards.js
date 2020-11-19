@@ -7,7 +7,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         //console.table(jsonObject);
         const towns = jsonObject['towns'];
-        for (let i = 0; i < prophets.length; i++) {
+        for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') {
                 let town = document.createElement('section');
                 let info = document.createElement('div');
