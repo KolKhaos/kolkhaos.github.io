@@ -1,29 +1,20 @@
 /* 64em is also 1028px (if basefont is 16px) */
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 800px){
 
-    header, nav, main, footer {
-        max-width: 64rem;
-        margin:auto;
+    .largeText {
+        position: absolute;
+        right: 2px;
+        top: 2px;
+        display: block;
+        color: yellow;
+    }
+    
+    .mediumText {
+        display: none;
     }
 
-/*----------- BODY --------------*/
+    .smallText {
+        display: none;
+    }
 
-
-
-/*----------- HEADER --------------*/
-
-
-
-/*----------- NAVIGATION --------------*/
-
-
-
-/*----------- MAIN --------------*/
-
-form label.sbs {
-    padding: .4rem 0;
 }
-
-/*----------- FOOTER --------------*/
-    
-} /* end of media query */
