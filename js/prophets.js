@@ -15,7 +15,7 @@ fetch(requestURL)
             let image = document.createElement('img');
 
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            dob.textContent = 'Date of Birth:' + ' ' + prohets[i].birthdate;
+            dob.textContent = 'Date of Birth:' + ' ' + prophets[i].birthdate;
             place.textContent = 'Birth Place:' + ' ' + prophets[i].birthplace;
 
             card.appendChild(h2);
