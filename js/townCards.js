@@ -7,13 +7,13 @@ fetch(requestURL)
     .then(function (jsonObject) {
         //console.table(jsonObject);
         const towns = jsonObject['towns'];
-        for (let i = 0; i < towns.length; i++) {
+        for (let i = 0; i < town.length; i++) {
             if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') {
                 let town = document.createElement('section');
                 let info = document.createElement('div');
 
                 let h2 = document.createElement('h2');
-                let h3 = documenet.createElement('h3');
+                let h3 = document.createElement('h3');
                 let pop = document.createElement('p');
                 let found = document.createElement('p');
                 let rainFall = document.createElement('p');
