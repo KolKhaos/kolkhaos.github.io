@@ -157,7 +157,7 @@ div {
     display: block;
 }
 
-div .towns {
+.towns {
     display: grid;
     grid-template-columns: 1fr;
 }

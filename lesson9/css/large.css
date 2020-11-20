@@ -16,7 +16,7 @@
         display: none;
     }
 
-    div .towns{
+    .towns {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
