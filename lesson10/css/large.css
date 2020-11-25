@@ -1,0 +1,32 @@
+@media only screen and (min-width: 800px){
+
+    .largeText {
+        position: absolute;
+        right: 2px;
+        top: 2px;
+        display: block;
+        color: yellow;
+    }
+    
+    .mediumText {
+        display: none;
+    }
+
+    .smallText {
+        display: none;
+    }
+
+    .towns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        max-width: 50%;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
