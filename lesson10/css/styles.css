@@ -110,6 +110,10 @@ h1 {
     margin: 0em;
 }
 
+h2 {
+    text-align: center;
+}
+
 header h2 {
     margin: 0em;
     color: var(--color-main);
@@ -260,6 +264,10 @@ tr {
 
 .forecastTemp {    
     grid-row: 3;
+}
+
+#dailysum {
+    text-transform: capitalize;
 }
 
 /* content ends */
