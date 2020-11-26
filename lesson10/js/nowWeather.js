@@ -24,9 +24,6 @@ fetch(apiURL)
         currentTemp.innerHTML = jsObject.main.temp + "&#8457;";
         currentHum.innerHTML = jsObject.main.humidity + "&#37;";
         currentWind.innerHTML = jsObject.wind.speed + " mph";
-        currentDes.innerHTML = jsObject.weather[0].description;
-        
-        
-
+        currentDes.innerHTML = jsObject.weather[0].description;               
        
     });

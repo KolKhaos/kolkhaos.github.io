@@ -245,13 +245,13 @@ tr {
     margin: .5em;
 }
 
-.forecast {
+#forecast {
     display: grid;    
     row-gap: 6px;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
 }
-.forecastDay1 .forecastDay2 .forecastDay3 .forecastDay4 .forecastDay5 {
+#forecastDay1 #forecastDay2 #forecastDay3 #forecastDay4 #forecastDay5 {
     text-align: center;
     font-weight: bold;
     grid-row: 1;
