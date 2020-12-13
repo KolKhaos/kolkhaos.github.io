@@ -162,6 +162,7 @@ div {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
     margin: auto;
+    gap: 10px;
     width: 50%;
     height: 50%;
     padding: 10px;
@@ -244,11 +245,19 @@ div {
 .instaCTA {
     background-color: var(--color-secondary);
     color: var(--font-color-primary);
+    text-decoration: none;
 }
 
 .instaCTA:focus {
     background-color: var(--color-tertiary);
     color: var(--font-color-secondary);
+    text-decoration: none;
+}
+
+.instaCTA:visited {
+    background-color: var(--color-secondary);
+    color: var(--font-color-primary);
+    text-decoration: none;
 }
 
 
