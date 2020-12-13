@@ -34,39 +34,58 @@
 
     </header>
     <main>
-        <h2>Welcome to Scoots</h2>
+        <h2>Contact Information</h2>
 
-        <div id="herogrid">
-            <div class="hg-item0">0</div>
-            <div class="hg-item1">1</div>
-        </div>
-
-        <hr>
-
-        <div id="rentgrid">
-            <div class="rg-item0">0</div>
-            <div class="rg-item1">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7473.8075250817155!2d-86.94979593855487!3d20.510171028747262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e58330a673659%3A0x9cedf516c7d86e9a!2sSan%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607578182495!5m2!1sen!2sus"
-                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
+        <div id="contactgrid">
+            <div class="cn-item0">
+                <div class="cnContent0">
+                    <h3>Rental Information</h3>
+                    <ul>
+                        <li>A $50 security deposit is required to confirm reservations.</li>
+                        <li>A valid drivers license is required in hand at time of rental.</li>
+                        <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                        <li>Fuel charge not included.</li>
+                        <li>Unlimited mileage.</li>
+                        <li>Liability Insurance is free of charge.</li>
+                        <li>Reservations rate requires 24 hour prior notification.</li>
+                        <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                        <li>Payment via Google Pay, cash, credit card, debit card, or Paypal.</li>
+                        <li>Rentals may be returned to either location.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="rg-item2">2</div>
-            <div class="rg-item3">3</div>
-            <div class="rg-item4">4</div>
-            <div class="rg-item5">5</div>
+            <div class="cn-item1">
+                <iframe class="cn-map"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1y-Q6sWalLl6XThO7qElLkvmNReGNUwFH" width="300"
+                    height="300" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="cn-item2">
+                <form class="cnForm" method="get" action="thanksContact.html">
+                    <fieldset>
+                        <legend>Comments or Questions?</legend>
+                        <label class="top">Name* <input type="text" name="name" required
+                                minlength="3"></label><br /><br />
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                                required></label><br /><br />
+                        <textarea id="info" name="addInfo" rows="10" cols="43">
+                        </textarea>
+                    </fieldset>
+                    <input type="submit" value="Send" class="submitBtn">
+                </form>
+            </div>
+            <div class="cn-item3">
+                <div class="cnContent3">
+                    <h3> Contact Info</h3>
+                    <ul>
+                        <li>Name</li>
+                        <li>Locations</li>
+                        <li>Phone Number</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-
-        <hr>
-
-        <div id="cta">
-            CTA
-            <br>
-            <button class="instaCTA">Rent Now!</button>
-        </div>
-
-
-
     </main>
     <footer>
         <ul id="footermap">
