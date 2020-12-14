@@ -20,7 +20,7 @@
 <body>
     <header>
         <div id="banner">
-
+            <h1>~Scoots!</h1>
         </div>
         <nav>
             <ul class="navigation">
@@ -34,22 +34,18 @@
 
     </header>
     <main>
-        <h2>Welcome to Scoots</h2>
-
-        <form method="get" action="thanksRSVP.html">
-
-            <div id="rsvpFlex">
-
+        <h2>Vehicle Reservation</h2>
+        <br />
+        <h3> Fill out these simple forms to reserve your vehicles:</h3>        
+        <div id="rsvpFlex">
+                <form method="get" action="thanksRSVP.html"></form>                
                 <div class="rsItem0">
                     <fieldset>
                         <legend>Applicant information</legend>
-                        <label >Full Name*<input type="text" name="name" required minlength="5"></label>
-                        <label >Email*<input type="email" name="email" placeholder="someone@gmail.com"
-                                required></label>
-                        <label >Phone*<input type="tel" name="phone" placeholder="1235551234"
-                                required></label>
-                        <label >Zip Code/Country*<input type="text" name="location" required
-                                minlength="5"></label>
+                        <label>Full Name*<input type="text" name="name" required minlength="5"></label>
+                        <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label>Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                        <label>Zip Code/Country*<input type="text" name="location" required minlength="5"></label>
                     </fieldset>
                 </div>
                 <div class="rsItem1">
@@ -67,36 +63,30 @@
                             <option value="Jeep Wrangler (2 Door)">
                             <option value="Jeep Wrangler (4 Door)">
                         </datalist>
-
-
-                        <label >Cruise Information<input name="cruiseList" list="cruiseType"></label>
+                        <label>Cruise Information<input name="cruiseList" list="cruiseType"></label>
                         <datalist id="cruiseType">
                             <option value="Carnival Cruises">
                             <option value="Princess Cruises">
                             <option value="Disney Cruises">
                         </datalist>
                     </fieldset>
-
                 </div>
 
                 <div class="rsItem2">
                     <fieldset>
                         <legend>Additional Info and Requests</legend>
                         <textarea id="info" name="addInfo" rows="4" cols="10"></textarea>
-                    </fieldset>    
-                        <fieldset>
+                    </fieldset>
+                    <fieldset>
                         <div>Drop-Off Request?</div>
                         <label><input type="radio" id="doChoice0" name="drop" value="yes">Yes</label>
                         <label><input type="radio" id="doChoice1" name="drop" value="no">No</label>
                     </fieldset>
                     <input type="submit" value="Send" class="submitBtn">
                 </div>
-
-
-            </div>
-        </form>
-
-
+            </form>
+        </div>
+        
     </main>
     <footer>
         <ul id="footermap">
