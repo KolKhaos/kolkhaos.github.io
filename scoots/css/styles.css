@@ -18,7 +18,8 @@ html {
 body {
     min-width: fit-content;
     margin: 0em 1vw;
-    filter: drop-shadow(12px 4px 0.75rem #000);    
+    filter: drop-shadow(12px 4px 0.75rem #000);
+    border-radius: 3px;
 }
 
 
@@ -69,19 +70,20 @@ nav {
 	max-width: 760px;
     background-color: var(--color-secondary);
     color: var(--font-color-secondary);
+    border-radius: 3px;
 }
-#navigation {
+.navigation {
 	list-style: none;
     padding: 0;
-    display: inline;
+    
 }
-#navigation li:first-child {
+.navigation li:first-child {
 	display: block;
 }
-#navigation li {
+.navigation li {
 	display: none;
 }
-#navigation a {
+.navigation a {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
@@ -89,14 +91,14 @@ nav {
 	color: var(--font-color-primary);
 	font-weight: 700;
 }
-#navigation a:hover {
+.navigation a:hover {
 	color: white;
 	background-color: var(--color-tertiary);
 }
 
 .currentPage {
-    text-decoration: underline;
-    text-decoration-style: double;
+    color: white;
+	background-color: var(--color-tertiary);
 }
 
 .responsive li {
@@ -328,6 +330,47 @@ p .thCN {
 }
 
 /* Contact Content end */
+/* RSVP Content */
+
+#rsvpFlex {
+    display: flex;
+    flex-direction: row;   
+    text-align: left; 
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.rsItem0 {
+    border: 2px solid var(--color-secondary);
+    background-color: var(--color-main);
+    font-weight: 650;    
+    margin: auto;
+    width: 30%;
+    padding: 5px;
+    max-width: 500px;    
+}
+
+.rsItem1 {
+    border: 2px solid var(--color-secondary);
+    background-color: var(--color-main);
+    font-weight: 650;
+    margin: auto;   
+    width: 40%;
+    padding: 15px;
+    max-width: 700px;
+}
+
+.rsItem2 {
+    border: 2px solid var(--color-secondary);
+    background-color: var(--color-main);
+    font-weight: 650;    
+    width: 30%;
+    padding: 5px;
+    max-width: 500px;
+}
+
+/* RSVP Content end */
 
 footer {
     margin: 0em;
@@ -345,5 +388,5 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--color-tertiary);
+    color: var(--color-secondary);
 }
