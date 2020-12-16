@@ -1,4 +1,3 @@
-
 //Hamburger
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
@@ -23,9 +22,9 @@ fetch(requestScoots)
 	})
 	.then(function (jsonObject) {
 		console.table(jsonObject);
-		const vehicles = jsonObject['vehicles']; 
+		const vehicles = jsonObject['vehicles'];
 		for (let i = 0; i < vehicles.length; i++) {
-			let trow = document.createElement('tr');			
+			let trow = document.createElement('tr');
 
 			let rsName = document.createElement('td');
 			let rsPeep = document.createElement('td');
@@ -51,8 +50,10 @@ fetch(requestScoots)
 			rsHal2.textContent = vehicles[i].walkHalf;
 			rsFul2.textContent = vehicles[i].walkFull;
 
-			
+
 
 			document.querySelector('tbody.rnBody').appendChild(trow);
 		}
 	});
+
+
