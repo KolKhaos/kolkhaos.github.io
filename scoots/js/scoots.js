@@ -13,7 +13,7 @@ window.onresize = () => {
 	if (window.innerWidth > 760) mainnav.classList.remove('responsive')
 };
 
-
+//Scoots Rental Table
 
 const requestScoots = 'https://kolkhaos.github.io/scoots/files/scoots.json'
 
@@ -25,8 +25,7 @@ fetch(requestScoots)
 		console.table(jsonObject);
 		const vehicles = jsonObject['vehicles']; 
 		for (let i = 0; i < vehicles.length; i++) {
-			let trow = document.createElement('tr');
-			let tdata = document.createElement('td');
+			let trow = document.createElement('tr');			
 
 			let rsName = document.createElement('td');
 			let rsPeep = document.createElement('td');
@@ -35,7 +34,15 @@ fetch(requestScoots)
 			let rsHal2 = document.createElement('td');
 			let rsFul2 = document.createElement('td');
 
-			trow.appendChild(tdata);
+			trow.appendChild(rsName);
+			trow.appendChild(rsPeep);
+			trow.appendChild(rsHal1);
+			trow.appendChild(rsFul1);
+			trow.appendChild(rsHal2);
+			trow.appendChild(rsFul2);
+
+			rsName.setAttribute('colspan', '4');
+			rsPeep.setAttribute('colspan', '2');
 
 			rsName.textContent = vehicles[i].name;
 			rsPeep.textContent = vehicles[i].persons;
@@ -44,14 +51,8 @@ fetch(requestScoots)
 			rsHal2.textContent = vehicles[i].walkHalf;
 			rsFul2.textContent = vehicles[i].walkFull;
 
+			
 
-			tdata.appendChild(rsName);
-			tdata.appendChild(rsPeep);
-			tdata.appendChild(rsHal1);
-			tdata.appendChild(rsFul1);
-			tdata.appendChild(rsHal2);
-			tdata.appendChild(rsFul2);
-
-			document.querySelector('tbody.rnTable').appendChild(trow);
+			document.querySelector('tbody.rnBody').appendChild(trow);
 		}
 	});
