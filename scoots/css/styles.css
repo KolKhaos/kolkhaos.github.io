@@ -276,22 +276,8 @@ div {
     width: 50%;
 }
 
-.instaCTA {
-    background-color: var(--color-secondary);
-    color: var(--font-color-primary);
-    text-decoration: none;
-}
-
-.instaCTA:focus {
-    background-color: var(--color-tertiary);
-    color: var(--font-color-secondary);
-    text-decoration: none;
-}
-
-.instaCTA:visited {
-    background-color: var(--color-secondary);
-    color: var(--font-color-primary);
-    text-decoration: none;
+#summary table{
+    border: 1px solid #000000;
 }
 
 
@@ -404,10 +390,6 @@ p .thCN {
 
 /* RSVP Content end */
 /* Rentals Content */
-table, td {
-    border: 1px solid black;
-}
-
 
 #rnStructure {
     margin: auto;
@@ -417,6 +399,63 @@ table, td {
 
 #rnStructure thead th{
     background-color: var(--color-secondary);
+}
+
+/*Rentals Content end */
+/*Tours Content*/
+
+#contactgrid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    gap: 15px;
+}
+
+.cn-item0 {
+    grid-column: 0 / 2;
+    grid-row: 1 / 2;
+    padding: 5px;
+}
+
+.cnContent0 {
+    text-align: left;
+}
+
+.cnContent0 h3 {
+    text-align: center;
+}
+
+.cn-item1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: var(--color-tertiary);
+    margin: auto;
+    padding: 5px;
+}
+
+
+.cn-item2 {
+    grid-column: 0 / 2;
+    grid-row: 2 / 3;
+    padding: 5px;
+    text-align: left;
+    color: var(--font-color-primary);
+}
+
+.cn-item3 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 5px;
+    text-align: left;
+}
+
+.cn-item3 h3 {
+    text-align: center;
 }
 
 
