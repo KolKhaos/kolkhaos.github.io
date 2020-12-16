@@ -404,11 +404,11 @@ p .thCN {
 /*Rentals Content end */
 /*Tours Content*/
 
-#contactgrid {
+#tourgrid {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin: auto;
     width: 50%;
     height: 50%;
@@ -416,21 +416,13 @@ p .thCN {
     gap: 15px;
 }
 
-.cn-item0 {
-    grid-column: 0 / 2;
+.tu-item0 {
+    grid-column: 0 / 1;
     grid-row: 1 / 2;
     padding: 5px;
 }
 
-.cnContent0 {
-    text-align: left;
-}
-
-.cnContent0 h3 {
-    text-align: center;
-}
-
-.cn-item1 {
+.tu-item1 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: var(--color-tertiary);
@@ -439,25 +431,36 @@ p .thCN {
 }
 
 
-.cn-item2 {
-    grid-column: 0 / 2;
+.tu-item2 {
+    grid-column: 0 / 1;
     grid-row: 2 / 3;
     padding: 5px;
     text-align: left;
     color: var(--font-color-primary);
 }
 
-.cn-item3 {
+.tu-item3 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     padding: 5px;
     text-align: left;
 }
-
-.cn-item3 h3 {
-    text-align: center;
+.tu-item4 {
+    grid-column: 0 / 1;
+    grid-row: 3 / 4;
+    padding: 5px;
+    text-align: left;
+}
+.tu-item5 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    padding: 5px;
+    text-align: left;
 }
 
+.tu-item3 h3 {
+    text-align: center;
+}
 
 
 
@@ -496,5 +499,8 @@ footer ul li {
 }
 
 #socialcons {
-    max-width: 25px;
+    max-width: 40px;
+    display: inline-block;
+    margin: auto;
+    list-style: none;
 }
