@@ -97,7 +97,7 @@ nav {
     background-color: var(--color-tertiary);
 }
 
-.currentPage a {
+.navigation .currentPage a {
     color: white;
 }
 
