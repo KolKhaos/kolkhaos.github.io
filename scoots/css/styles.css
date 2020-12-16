@@ -97,6 +97,10 @@ nav {
     background-color: var(--color-tertiary);
 }
 
+.currentPage a {
+    color: white;
+}
+
 .responsive li {
     display: block;
 }
