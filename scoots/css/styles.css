@@ -25,8 +25,8 @@ html {
     background-color: white;
 }
 
-body {    
-    margin: auto;    
+body {
+    margin: auto;
     border-radius: 3px;
 }
 
@@ -39,12 +39,12 @@ body {
     margin: auto;
 }
 
-.logo {    
+.logo {
     max-width: 100px;
 }
 
 header {
-    background-color: var(--color-main);    
+    background-color: var(--color-main);
     color: var(--font-color-primary);
     max-height: fit-content;
     width: auto;
@@ -154,7 +154,7 @@ main p {
 img {
     width: 60%;
     max-width: 400px;
-    margin: auto;  
+    margin: auto;
 }
 
 .imgHero {
@@ -189,7 +189,7 @@ div {
     grid-column: 1 / 6;
     grid-row: 1;
     display: none;
-    background-color: var(--color-secondary);    
+    background-color: var(--color-secondary);
     margin: auto;
     text-align: center;
 }
@@ -198,15 +198,15 @@ div {
 .hg-item0 {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
-    
-       
+
+
     margin: auto;
     text-align: center;
 }
 
 .hg-item1 {
     grid-column: 5 / 5;
-    grid-row: 2 / 3;   
+    grid-row: 2 / 3;
     text-align: center;
 }
 
@@ -216,18 +216,18 @@ div {
     display: block;
     background-color: var(--color-main);
     color: white;
-    text-shadow: 1px 1px #000000;    
+    text-shadow: 1px 1px #000000;
     text-align: center;
 }
 
-#infogrid {    
+#infogrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     margin: auto;
     width: auto;
     height: 50%;
-    column-gap: 5px;    
+    column-gap: 5px;
 }
 
 .if-item0 {
@@ -272,11 +272,13 @@ div {
 .if-item3,
 .if-item4,
 .if-item5,
-.if-item6 {       
+.if-item6 {
     text-align: center;
 }
 
-.if-item3 p, .if-item4 p, .ifitem5 p{
+.if-item3 p,
+.if-item4 p,
+.ifitem5 p {
     text-align: center;
 }
 
@@ -287,8 +289,8 @@ div {
     width: 50%;
 }
 
-#summary table{
-    border: 2px solid #000000;    
+#summary table {
+    border: 2px solid #000000;
     padding: 20px;
     box-shadow: 1px 1px #000000;
 }
@@ -412,10 +414,10 @@ p .thCN {
 #rnStructure {
     margin: auto;
     text-align: center;
-    
+
 }
 
-#rnStructure thead th{
+#rnStructure thead th {
     background-color: var(--color-secondary);
 }
 
@@ -463,12 +465,14 @@ p .thCN {
     padding: 5px;
     text-align: left;
 }
+
 .tu-item4 {
     grid-column: 0 / 1;
     grid-row: 3 / 4;
     padding: 5px;
     text-align: left;
 }
+
 .tu-item5 {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
@@ -484,7 +488,7 @@ p .thCN {
 
 /* Footer Content */
 footer {
-    background-color: var(--color-tertiary);    
+    background-color: var(--color-tertiary);
     color: var(--font-color-primary);
     margin: 0em;
     padding: 1em;
